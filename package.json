@@ -1,0 +1,28 @@
+{
+  "name": "code-challenges",
+  "version": "1.0.0",
+  "description": "A repository of code challenges for personal practice",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RMartin0717/code-challenges.git"
+  },
+  "author": "Riley Martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RMartin0717/code-challenges/issues"
+  },
+  "homepage": "https://github.com/RMartin0717/code-challenges#readme",
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.6"
+  }
+}

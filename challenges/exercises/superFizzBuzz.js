@@ -10,3 +10,8 @@ If it's evenly divisible by 3, print Fizz
 If it's evenly divisible by 5, print Buzz
 If it's evenly divisible by 7, print Super
 Otherwise print just the number */
+
+
+function superFizzBuzz() {
+  return `Hey`
+}
