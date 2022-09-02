@@ -11,7 +11,14 @@ If it's evenly divisible by 5, print Buzz
 If it's evenly divisible by 7, print Super
 Otherwise print just the number */
 
+class SuperFizzBuzz {
+  constructor(number) {
+    this.number = number
+  }
 
-function superFizzBuzz() {
-  return `Hey`
+  superFizzBuzz() {
+    return `hey ${this.number}`
+  }
 }
+
+module.exports = SuperFizzBuzz
