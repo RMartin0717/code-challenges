@@ -12,12 +12,33 @@ If it's evenly divisible by 7, print Super
 Otherwise print just the number */
 
 class SuperFizzBuzz {
-  constructor(number) {
-    this.number = number
+  constructor(range) {
+    this.range = range || [0, 1000]
   }
 
   superFizzBuzz() {
-    return `hey ${this.number}`
+    let processedNums = []
+
+    for (let currentNum = this.range[0]; currentNum <= this.range[1]; currentNum++) {
+      let toPrint = ''
+      if(currentNum % 7 === 0) {
+        toPrint = 'Super'
+      }
+      if(currentNum % 3 === 0) {
+        toPrint = `${toPrint}Fizz`
+      }
+      if(currentNum % 5 === 0) {
+        toPrint = `${toPrint}Buzz`
+      }
+      if(toPrint){
+        processedNums.push(toPrint)
+      } else {
+        processedNums.push(currentNum)
+      }
+    }
+
+    const sequence = processedNums.join('\n')
+    return sequence
   }
 }
 
