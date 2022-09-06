@@ -1,3 +1,5 @@
+//completed September 6, 2022
+
 class TwoSum {
   twoSum(nums, target) {
     for(let i = 0; i < nums.length; i++) {

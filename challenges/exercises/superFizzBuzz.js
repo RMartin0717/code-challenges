@@ -1,3 +1,5 @@
+//completed September 2, 2022
+
 /* n this assignment you'll implement an algorithm that is actually used in some programmer interviews. And the really shocking part is that some people fail it! This is an extension of the FizzBuzz problem. Write an implementation of the following algorithm.
 
 Iterate through the numbers 0 through 1000 and for each one print out exactly one thing. These rules are in descending priority:

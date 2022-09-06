@@ -1,3 +1,5 @@
+// completed September 6. 2022
+
 class Flattener {
   constructor() {
     this.flattened = []
