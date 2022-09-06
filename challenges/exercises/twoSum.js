@@ -1,12 +1,14 @@
-var twoSum = function(nums, target) {
-    for(i = 0; i < nums.length; i++) {
-        for(j = i + 1; j < nums.length; j++) {
+class TwoSum {
+  twoSum(nums, target) {
+    for(let i = 0; i < nums.length; i++) {
+        for(let j = i + 1; j < nums.length; j++) {
             if(nums[i] + nums[j] === target) {
                 return [i,j]
             }
         }
     }
-};
+  }
+}
 
 //i am starting with an array of numbers and a target
     //iterate over numbers array
@@ -14,3 +16,4 @@ var twoSum = function(nums, target) {
             //on each iteration, add the 2 current numbers together and check if they equal the target
             //if they do equal the target, return an array of those two numbers
 //i need to return an array containing the 2 numbers from the given array that add up to the target
+module.exports = TwoSum
