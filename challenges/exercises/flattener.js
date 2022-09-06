@@ -1,5 +1,17 @@
 class Flattener {
-  flattener(nums) {
+  constructor() {
+    this.flattened = []
+  }
+
+  flattener(numbers) {
+    numbers.forEach(element => {
+      if(!element.length) {
+        this.flattened = [...this.flattened, element]
+      } else {
+        this.flattener(element)
+      }
+    })
+    return this.flattened
   }
 }
 
